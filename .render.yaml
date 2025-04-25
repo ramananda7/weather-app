@@ -1,0 +1,4 @@
+build:
+  command: "npm install && npm run build"
+  environment:
+    BUN: false  # This disables Bun if it's being used by default
